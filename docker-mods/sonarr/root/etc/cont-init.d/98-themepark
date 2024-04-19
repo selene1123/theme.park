@@ -38,7 +38,7 @@ fi
 case ${TP_DOMAIN} in
   *"github.io"*)
   echo "Switching to github.io URL style"
-    TP_DOMAIN="${TP_DOMAIN}\/theme.park"
+    TP_DOMAIN="${TP_DOMAIN}\/my.theme.park.fork"
     ;;
 esac
 
