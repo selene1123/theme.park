@@ -32,3 +32,7 @@
     var(--main-bg-color)
   ); /* Make sure this is compatible with whatever takes in the gradient */
 }
+
+.donate {
+  visibility: hidden;
+}
