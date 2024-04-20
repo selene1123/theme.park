@@ -17,10 +17,6 @@
   --link-color: var(--text);
   --link-color-hover: #8caaee;
   --label-text-color: #fff; /* have to break convention here */
-  --primaryColor: #8caaee;
-  --successColor: #4cc17a;
-  --dangerColor: #e78284;
-  --warningColor: #ccba5c;
 
   --text: #c6d0f5;
   --text-hover: var(--text);
@@ -37,36 +33,10 @@
   ); /* Make sure this is compatible with whatever takes in the gradient */
 }
 
-/*Toolbars and Nav Menus*/
 .donate {
-  visibility: hidden;
-}
-
-[class*="PageHeader-donate-"]:hover {
   visibility: hidden;
 }
 
 .PageHeader-donate-FT1Kz {
   visibility: hidden;
-}
-
-[class*="PageToolbar-toolbar-"] {
-  background: var(--transparency-dark-25);
-  color: var(--text);
-  stroke: #0ca4ff;
-  stroke-width: 10px;
-  stroke-linejoin: round;
-}
-
-[class*="PageToolbarButton-toolbarButton-"]:hover {
-  color: rgb(var(--accent-color));
-  stroke: #b705f7;
-  stroke-width: 14px;
-}
-
-/*Progress Bars*/
-[class*="Label-success-"] {
-  border-color: #4cc17a;
-  background-color: #4cc17a;
-  color: #000;
 }
