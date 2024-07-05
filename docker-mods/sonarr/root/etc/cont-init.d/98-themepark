@@ -60,7 +60,7 @@ if ! grep -q "${TP_DOMAIN}/css/base" "${APP_FILEPATH}"; then
 
     if [[ -n ${TP_ADDON} ]]; then
         for addon in $(echo "$TP_ADDON" | tr "|" " "); do
-        sheets="${sheets} <link rel='stylesheet' href='${url_base}/theme.park/css/addons/sonarr/${addon}/${addon}.css'>"
+        sheets="${sheets} <link rel='stylesheet' href='${url_base}/css/addons/sonarr/${addon}/${addon}.css'>"
         printf 'Added custom addon: %s\n\n' "${addon}"
         done
     fi
